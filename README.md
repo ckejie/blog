@@ -14,6 +14,7 @@
       `git config --global user.name "yourname"`
 
 # 创建项目环境
+
   1.建立项目目录
     `mkdir projectName && cd projectName`
 
@@ -30,6 +31,7 @@ pip freeze > requirements.txt   # 生成当前环境下所需要安装的python�
 
 deactivate                # 退出沙盒环境
     ```
+
   3. 初始化git仓库
 ```
 git init
