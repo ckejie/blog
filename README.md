@@ -2,28 +2,28 @@
 
 # Git管理python项目
   1. 生成git公私
-'''
+```
 ssh-keygen -t rsa -C "yourmail@gmail.com"
 
 ls  ~/.ssh/  && cat ~/.ssh/id_rsa.pub
-'''
+```
 
   2.上传公钥到Github
 
   3. 配置Git
-'''
+```
 git config --global user.email "yourmail@example.com"
 git config --global user.name "yourname"
-'''
+```
 
 # 创建项目环境
 
   1.建立项目目录
-'''
+```
 mkdir projectName && cd projectName
 
 echo "# projectName with Python-Flask" >> README.md
-'''
+```
 
   2. 使用virtualenv独立python环境
 ```
